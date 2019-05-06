@@ -7,7 +7,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+ <link rel="stylesheet" href="../dist/css/lightbox.min.css">
 	<title>Julian Soriano Photography</title>
 </head>
 <body>
@@ -30,7 +30,7 @@
 </header>
 <main class="container">
   <img class="d-block img-fluid mx-auto" src="Gallery/1.jpg" alt="stage">
-<h2 class="lead my-4 w-50 mx-auto margin-bottom: 4rem">
+<h2 class="lead my-4 w-50 mx-auto margin-bottom: 4rem d-flex justify-content-center">
   Gallery
 </h2>
 
@@ -38,6 +38,7 @@
 <!-- Gallery-->
 <div class="col-md-6 col-md-6 col-lg-4 mb-4">
   <article class="card shadow">
+  <a href="Gallery/2.jpg" data-lightbox="image-2"> </a>
     <img src="Gallery/2.jpg" class="card-img-top" alt="Trippie Redd">
      <p class="card-title m-0">Trippe Redd</p>
      <p class="card-title m-0">2/13/19</p>
@@ -138,20 +139,20 @@
 <!--End Gallery-->
 
 <hr></hr>
-<h2>
-  About Me
-</h2>
+
  <ul class="list-unstyled">
   <li class="d-flex align-items-center">
-    <img src="Gallery/me.jpg" class="mr-3 col-md-6 col-md-6 col-lg-4 mb-4" alt="selfie">
+    <img src="Gallery/me.jpg" class="mr-3 col-md-6 col-md-6 col-lg-4 mb-4 img-fluid" alt="Responsive Image">
     <div class="w-50">
       <h5 class="mt-0 mb-1">About Me</h5>
+      <hr></hr>
      MY name is Julian Soriano, I'm a freelance photographer/videographer. I am a current senior at California University Northridge, with a passion in Media. I mostly enjoy capturing photos at concerts of my favorite artists. I also shoot any other type of media a client is interested in.
-    </div>
+ </div>
   </li>
 <footer class="container">
  
    
   <p> Copyright &copy; 2019 Julian Soriano </p>
+  <script src="path/to/lightbox.js"></script>
 </body>
 </html>
